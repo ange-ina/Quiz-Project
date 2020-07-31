@@ -1,0 +1,28 @@
+
+body{
+    text-align: center;
+}
+
+section{
+    padding-bottom: 150px;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+input[type=radio]+label{
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    margin: 2px;
+}
+
+input[type=radio]:checked+label{
+    background: red;
+}
+
+input.ans:checked+label{
+    background: green;
+}
